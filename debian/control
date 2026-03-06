@@ -1,0 +1,13 @@
+Source: multimon-ng
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Section: hamradio
+Priority: optional
+Rules-Requires-Root: no
+Standards-Version: 4.3.0
+Build-Depends: debhelper (>= 12), build-essential, libpulse-dev, libx11-dev
+Homepage: https://github.com/EliasOenal/multimon-ng/
+
+Package: multimon-ng
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Digital radio transmission decoder.
