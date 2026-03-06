@@ -10,4 +10,5 @@ Homepage: https://github.com/EliasOenal/multimon-ng/
 Package: multimon-ng
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: Digital radio transmission decoder.
+Description: Digital radio transmission decoder
+  Universal decoder for multiple digital radio transmission protocols.
